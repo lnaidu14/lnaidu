@@ -1,18 +1,35 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Inter", sans-serif;
-}
-
-.bgImg {
+/* .bgImg {
   width: 1920px;
-  height:1080px;
+  height: 1080px;
   background-image: url("img/pixel-resized.png");
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
-  text-align:center;
-  margin:auto;
-  padding:0;
-  position: relative
+  text-align: center;
+  margin: auto;
+  padding: 0;
+  position: relative;
+}
+
+.bookImg {
+  display: block;
+  left: 53%;
+  bottom: 48%;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+
+.bookImg:hover {
+  transform: scale(1.1);
+} */
+
+.main-container {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+.content {
+  position: absolute;
 }
