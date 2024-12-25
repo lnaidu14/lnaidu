@@ -9,7 +9,7 @@ export function Experience() {
           <h3 className="title">Software Developer</h3>
           <h5 className="duration">January 2022 - March 2024</h5>
         </span>
-        <h5 className="company">Irdeto, Ottawa, Ontario, Canada</h5>
+        <h5 className="company">Irdeto,Ottawa,Ontario,Canada</h5>
         <div class="lists">
           <ul class="nes-list is-disc">
             <li>
@@ -78,10 +78,28 @@ export function Experience() {
       <div className="experience">
         <div className="creds">
           <span className="title-duration">
+            <h3 className="title">Full Stack Engineer</h3>
+            <h5 className="duration">April 2021 - November 2021</h5>
+          </span>
+          <h5 className="company">Mobiux Labs,Bengaluru,Karnataka,India</h5>
+        </div>
+        <div class="lists">
+          <ul class="nes-list is-disc">
+            <li>Developed an e-learning platform frontend using Next.js.</li>
+            <li>
+              Built backend API's, integrated databases, models and serializers
+              using Django + REST.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className="experience">
+        <div className="creds">
+          <span className="title-duration">
             <h3 className="title">Quality Assurance Automation Engineer</h3>
             <h5 className="duration">February 2020 - November 2021</h5>
           </span>
-          <h5 className="company">Mobiux Labs, Bengaluru, Karnataka, India</h5>
+          <h5 className="company">Mobiux Labs,Bengaluru,Karnataka,India</h5>
         </div>
         <div class="lists">
           <ul class="nes-list is-disc">

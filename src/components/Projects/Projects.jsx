@@ -11,16 +11,13 @@ export function Projects() {
           Skills used: Typescript | Golang | Fiber | React Native | REST |
           Docker | PostgreSQL | GitHub Actions
         </h5>
-        {/* Links */}
-        <div className="links">
-          <div className="link">
-            <a
-              href="https://github.com/users/lnaidu14/projects/1"
-              target="_blank"
-            >
-              <i className="nes-icon github is-large"></i>
-            </a>
-          </div>
+        <div className="link">
+          <a
+            href="https://github.com/users/lnaidu14/projects/1"
+            target="_blank"
+          >
+            <i className="nes-icon github is-large"></i>
+          </a>
         </div>
         <div class="lists">
           <ul class="nes-list is-disc">
@@ -34,8 +31,7 @@ export function Projects() {
               are all done by the backend).
             </li>
             <li>
-              You can make payments by scanning their encrypted QR codes and
-              then entering the amount you want to transfer to their account.
+              Supports scanning of encrypted QR codes for making payments.
             </li>
             <li>
               Integrated a PostgreSQL database using Docker and used the "pgx"
@@ -60,9 +56,14 @@ export function Projects() {
         <h5 className="skills-used">
           Skills used: JavaScript | React | Prime React | GitHub Actions
         </h5>
-        <a href="https://technodevelop.com/" target="_blank">
-          Website
-        </a>
+        <div className="link">
+          <a href="https://technodevelop.com/" target="_blank">
+            <img
+              src="img/external-link-pixel.png"
+              alt="TechnoDevelope Corporation"
+            />
+          </a>
+        </div>
         <div class="lists">
           <ul class="nes-list is-disc">
             <li>

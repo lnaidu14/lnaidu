@@ -1,15 +1,23 @@
+.about-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .about-profile-picture {
-    image-rendering: pixelated;
+  image-rendering: pixelated;
 }
 
 .about-content {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .social-media-links {
-    display: flex;
+  display: flex;
 }
 
 .social-media-link {
-    margin-right: 1rem;
+  margin-right: 1rem;
 }
