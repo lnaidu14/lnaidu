@@ -20,40 +20,45 @@ function App() {
   const [displayPage, setDisplayPage] = useState("about");
   return (
     <>
-      <div className="main-container nes-pointer">
-        <div className="side-content">
+      <div className="main-container">
+        <div className="side-nav">
+          <img
+            className="profile-picture"
+            alt="Lalit Naidu Profile Picture"
+            src="img/profile-pic.jpeg"
+          />
           {/* Interactions */}
           <div className="interactions">
-            <div className="interaction">
-              <i className="nes-icon is-large star"></i>
-              <p className="nes-btn" onClick={() => setDisplayPage("about")}>
-                About
-              </p>
-            </div>
-            <div className="interaction">
-              <i className="nes-icon is-large star"></i>
-              <p className="nes-btn" onClick={() => setDisplayPage("exp")}>
-                Experience
-              </p>
-            </div>
-            <div className="interaction">
-              <i className="nes-icon is-large star"></i>
-              <p className="nes-btn" onClick={() => setDisplayPage("edu")}>
-                Education
-              </p>
-            </div>
-            <div className="interaction">
-              <i className="nes-icon is-large star"></i>
-              <p className="nes-btn" onClick={() => setDisplayPage("proj")}>
-                Projects
-              </p>
-            </div>
-            <div className="interaction">
-              <i className="nes-icon is-large star"></i>
-              <p className="nes-btn" onClick={() => setDisplayPage("skills")}>
-                Skills
-              </p>
-            </div>
+            <p
+              className="nes-btn interaction"
+              onClick={() => setDisplayPage("about")}
+            >
+              About
+            </p>
+            <p
+              className="nes-btn interaction"
+              onClick={() => setDisplayPage("exp")}
+            >
+              Experience
+            </p>
+            <p
+              className="nes-btn interaction"
+              onClick={() => setDisplayPage("edu")}
+            >
+              Education
+            </p>
+            <p
+              className="nes-btn interaction"
+              onClick={() => setDisplayPage("proj")}
+            >
+              Projects
+            </p>
+            <p
+              className="nes-btn interaction"
+              onClick={() => setDisplayPage("skills")}
+            >
+              Skills
+            </p>
           </div>
         </div>
         <div className="main-content">{renderPage(displayPage)}</div>

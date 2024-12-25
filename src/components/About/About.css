@@ -1,0 +1,15 @@
+.about-profile-picture {
+    image-rendering: pixelated;
+}
+
+.about-content {
+    margin-top: 10px;
+}
+
+.social-media-links {
+    display: flex;
+}
+
+.social-media-link {
+    margin-right: 1rem;
+}
