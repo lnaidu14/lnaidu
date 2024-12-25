@@ -1,0 +1,9 @@
+.title-duration {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  font-size: 0.95em;
+}

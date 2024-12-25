@@ -15,8 +15,9 @@ export function About() {
         <div className="about-content nes-container with-title">
           <p className="title">Greetings!</p>
           <p>
-            My name is Lalit Naidu. I am a software developer with a passion for
-            backend development and improving the developer and user experience.
+            I am an enthusiastic software developer with a passion for backend
+            development, improving the developer and user experience and solving
+            problems.
           </p>
 
           {/* Social Media Links */}
