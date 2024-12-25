@@ -1,0 +1,9 @@
+ul {
+  display: table;
+  margin: 0 auto;
+}
+
+li {
+  font-size: 0.9em;
+  margin: 0.75em;
+}

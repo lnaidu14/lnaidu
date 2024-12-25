@@ -90,7 +90,6 @@ export function Experience() {
               raising coverage from 65% to 92% for an Express.js, event-driven
               backend structured around AWS IoT Core.
             </li>
-            <li>Thou hast had a good night's sleep, I hope.</li>
             <li>
               Utilized AWS CloudWatch to monitor and debug production system
               using queries and dashboards.

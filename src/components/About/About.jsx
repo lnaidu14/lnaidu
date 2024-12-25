@@ -23,12 +23,12 @@ export function About() {
           {/* Social Media Links */}
           <div className="social-media-links">
             <div className="social-media-link">
-              <a href="https://www.linkedin.com/in/lnaidu14/">
+              <a href="https://www.linkedin.com/in/lnaidu14/" target="_blank">
                 <i className="nes-icon linkedin is-large"></i>
               </a>
             </div>
             <div className="social-media-link">
-              <a href="https://github.com/lnaidu14">
+              <a href="https://github.com/lnaidu14" target="_blank">
                 <i className="nes-icon github is-large"></i>
               </a>
             </div>
