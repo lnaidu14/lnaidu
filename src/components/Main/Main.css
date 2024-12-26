@@ -6,6 +6,13 @@
   float: left;
 }
 
+.fade-in {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  position: fixed;
+}
+
 .side-nav {
   width: auto;
   height: auto;

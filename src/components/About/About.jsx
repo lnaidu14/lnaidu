@@ -33,7 +33,7 @@ export function About() {
               </a>
             </div>
           </div>
-          <a href="docs/Lalit-Resume-fullstack.pdf" target="_blank">
+          <a href="docs/Lalit.pdf" target="_blank">
             View Resume as PDF
           </a>
         </div>

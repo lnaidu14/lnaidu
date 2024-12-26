@@ -27,7 +27,7 @@ export function Loading({ setDisplayPage }) {
   return (
     <>
       <div className="loading">
-        <div className="fade-in" style={{ opacity: opacityValue }}></div>
+        <div className="fade-out" style={{ opacity: opacityValue }}></div>
         <p>Loading...</p>
         <progress
           className="nes-progress is-success progress-bar"
