@@ -1,67 +1,24 @@
-import { useState } from "react";
 import "./App.css";
-import { About, Experience, Projects, Education, Skills } from "./components";
+import { Main, Landing, Loading } from "./components";
+import { useState } from "react";
 
 function App() {
-  const renderPage = (page) => {
+  const renderPage = (page, setDisplayPage) => {
     switch (page) {
-      case "about":
-        return <About />;
-      case "exp":
-        return <Experience />;
-      case "edu":
-        return <Education />;
-      case "proj":
-        return <Projects />;
-      case "skills":
-        return <Skills />;
+      case "main":
+        return <Main />;
+      case "loading":
+        return <Loading setDisplayPage={setDisplayPage} />;
+      case "landing":
+        return <Landing setDisplayPage={setDisplayPage} />;
     }
   };
-  const [displayPage, setDisplayPage] = useState("about");
+  const [displayPage, setDisplayPage] = useState("landing");
+
   return (
     <>
-      <div className="main-container">
-        <div className="side-nav">
-          <img
-            className="profile-picture"
-            alt="Lalit Naidu Profile Picture"
-            src="img/profile-pic.jpeg"
-          />
-          {/* Interactions */}
-          <div className="interactions">
-            <p
-              className="nes-btn interaction"
-              onClick={() => setDisplayPage("about")}
-            >
-              About
-            </p>
-            <p
-              className="nes-btn interaction"
-              onClick={() => setDisplayPage("exp")}
-            >
-              Experience
-            </p>
-            <p
-              className="nes-btn interaction"
-              onClick={() => setDisplayPage("edu")}
-            >
-              Education
-            </p>
-            <p
-              className="nes-btn interaction"
-              onClick={() => setDisplayPage("proj")}
-            >
-              Projects
-            </p>
-            <p
-              className="nes-btn interaction"
-              onClick={() => setDisplayPage("skills")}
-            >
-              Skills
-            </p>
-          </div>
-        </div>
-        <div className="main-content">{renderPage(displayPage)}</div>
+      <div className="app-container">
+        {renderPage(displayPage, setDisplayPage)}
       </div>
     </>
   );

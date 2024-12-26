@@ -1,0 +1,44 @@
+.landing-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.press-start {
+  animation: blinker 1s linear infinite;
+  position: fixed;
+  color: white;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.bg-img {
+  width: 1920px;
+  height: 1080px;
+  background-image: url("img/pixel-resized.png");
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: auto;
+  padding: 0;
+}
+
+/* .bookImg {
+  display: block;
+  left: 53%;
+  bottom: 48%;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+
+.bookImg:hover {
+  transform: scale(1.1);
+} */
