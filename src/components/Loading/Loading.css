@@ -5,6 +5,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: white;
+}
+
+.fade-in {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  position: fixed;
 }
 
 .progress-bar {
