@@ -19,5 +19,12 @@
 }
 
 .social-media-link {
+  opacity: 0.7;
+  transition: opacity 0.3s;
+  margin-right: 1rem;
+}
+
+.social-media-link:hover {
+  opacity: 1;
   margin-right: 1rem;
 }

@@ -19,8 +19,8 @@ export function Projects() {
             <i className="nes-icon github is-large"></i>
           </a>
         </div>
-        <div class="lists">
-          <ul class="nes-list is-disc">
+        <div className="lists">
+          <ul className="nes-list is-disc">
             <li>
               Developed a payments applicaton that allows for transactions
               between users via QR codes and fetch user balance.
@@ -64,8 +64,8 @@ export function Projects() {
             />
           </a>
         </div>
-        <div class="lists">
-          <ul class="nes-list is-disc">
+        <div className="lists">
+          <ul className="nes-list is-disc">
             <li>
               Built a static frontend React application for a consultancy to
               highlight their work and accomplishments.
