@@ -1,9 +1,25 @@
 import "./SideNav.css";
+import { useState } from "react";
 
 export function SideNav({ setDisplayPage }) {
+  const [isHamburgerToggled, setIsHamburgerToggled] = useState(false);
   return (
     <>
-      <div className="side-nav">
+      <div
+        className="nes-btn hamburger"
+        onClick={() => {
+          console.log("isHamburgerToggled: ", isHamburgerToggled);
+          setIsHamburgerToggled(!isHamburgerToggled);
+        }}
+      >
+        <img className="hamburger" src="img/hamburger.png" alt="" />
+      </div>
+      <nav
+        className="side-nav"
+        style={
+          isHamburgerToggled ? { display: "inline-block" } : { display: "none" }
+        }
+      >
         <img
           className="profile-picture"
           alt="Lalit Naidu Profile Picture"
@@ -42,7 +58,7 @@ export function SideNav({ setDisplayPage }) {
             Skills
           </p>
         </div>
-      </div>
+      </nav>
     </>
   );
 }
