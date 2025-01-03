@@ -13,7 +13,7 @@ export function SideNav({ setDisplayPage }) {
         <img
           className="profile-picture"
           alt="Lalit Naidu Profile Picture"
-          src="img/profile-pic.jpeg"
+          src="profile-pic.jpeg"
         />
         {/* Interactions */}
         <div className="interactions">
@@ -82,7 +82,7 @@ export function SideNav({ setDisplayPage }) {
               left: 0;
               display: block;
               position: absolute;
-              background-image: url("img/hamburger.png");
+              background-image: url("hamburger.png");
               background-size: 100% 100%;
               background-position: center center;
               background-repeat: no-repeat;

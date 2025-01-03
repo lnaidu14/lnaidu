@@ -21,7 +21,7 @@
 .bg-img {
   width: 1920px;
   height: 1080px;
-  background-image: url("img/pixel-resized.png");
+  background-image: url("pixel-resized.png");
   background-size: 100% 100%;
   background-position: center center;
   background-repeat: no-repeat;

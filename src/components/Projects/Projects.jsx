@@ -59,7 +59,7 @@ export function Projects() {
         <div className="link">
           <a href="https://technodevelop.com/" target="_blank">
             <img
-              src="img/external-link-pixel.png"
+              src="external-link-pixel.png"
               alt="TechnoDevelope Corporation"
             />
           </a>
