@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  // base: "/lpnaidu.github.io/",
+  base: "/lpnaidu",
   plugins: [react()],
 })
