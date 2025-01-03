@@ -28,3 +28,10 @@
   opacity: 1;
   margin-right: 1rem;
 }
+
+@media screen and (max-width: 1000px) {
+  .social-media-link {
+    opacity: 1;
+    margin-right: 1rem;
+  }
+}

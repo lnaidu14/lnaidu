@@ -2,24 +2,14 @@ import "./SideNav.css";
 import { useState } from "react";
 
 export function SideNav({ setDisplayPage }) {
-  const [isHamburgerToggled, setIsHamburgerToggled] = useState(false);
+  const [hamburgerOpen, setHamburgerOpen] = useState(false);
+  const toggleHamburger = () => {
+    setHamburgerOpen(!hamburgerOpen);
+  };
   return (
     <>
-      <div
-        className="nes-btn hamburger"
-        onClick={() => {
-          console.log("isHamburgerToggled: ", isHamburgerToggled);
-          setIsHamburgerToggled(!isHamburgerToggled);
-        }}
-      >
-        <img className="hamburger" src="img/hamburger.png" alt="" />
-      </div>
-      <nav
-        className="side-nav"
-        style={
-          isHamburgerToggled ? { display: "inline-block" } : { display: "none" }
-        }
-      >
+      <nav className="side-nav">
+        <div className="nes-btn hamburger" onClick={toggleHamburger}></div>
         <img
           className="profile-picture"
           alt="Lalit Naidu Profile Picture"
@@ -29,36 +19,108 @@ export function SideNav({ setDisplayPage }) {
         <div className="interactions">
           <p
             className="nes-btn interaction"
-            onClick={() => setDisplayPage("about")}
+            onClick={() => {
+              setDisplayPage("about");
+              if (hamburgerOpen) setHamburgerOpen(false);
+            }}
           >
             About
           </p>
           <p
             className="nes-btn interaction"
-            onClick={() => setDisplayPage("exp")}
+            onClick={() => {
+              setDisplayPage("exp");
+              if (hamburgerOpen) setHamburgerOpen(false);
+            }}
           >
             Experience
           </p>
           <p
             className="nes-btn interaction"
-            onClick={() => setDisplayPage("edu")}
+            onClick={() => {
+              setDisplayPage("edu");
+              if (hamburgerOpen) setHamburgerOpen(false);
+            }}
           >
             Education
           </p>
           <p
             className="nes-btn interaction"
-            onClick={() => setDisplayPage("proj")}
+            onClick={() => {
+              setDisplayPage("proj");
+              if (hamburgerOpen) setHamburgerOpen(false);
+            }}
           >
             Projects
           </p>
           <p
             className="nes-btn interaction"
-            onClick={() => setDisplayPage("skills")}
+            onClick={() => {
+              setDisplayPage("skills");
+              if (hamburgerOpen) setHamburgerOpen(false);
+            }}
           >
             Skills
           </p>
         </div>
       </nav>
+      <style jsx>
+        {`
+          @media screen and (max-width: 1000px) {
+            .side-nav {
+              width: 100vw;
+              height: ${hamburgerOpen ? "100vh" : "5.5rem"};
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+            }
+
+            .hamburger {
+              width: 5rem;
+              height: 5rem;
+              top: 0;
+              left: 0;
+              display: block;
+              position: absolute;
+              background-image: url("img/hamburger.png");
+              background-size: 100% 100%;
+              background-position: center center;
+              background-repeat: no-repeat;
+              z-index: 6;
+            }
+
+            .profile-picture {
+              display: none;
+            }
+
+            .interactions {
+              display: ${hamburgerOpen ? "flex" : "none"};
+              flex-direction: column;
+              flex-wrap: wrap;
+              justify-content: center;
+              align-items: center;
+              width: 100vw;
+              height: 100vh;
+            }
+
+            .interaction {
+              width: ${hamburgerOpen ? "20rem" : "15rem"};
+            }
+
+            .main-content {
+              display: ${hamburgerOpen ? "none" : "flex"};
+              width: 100%;
+            }
+            .main-container {
+              width: 100%;
+              height: 100%;
+              display: flex;
+              float: left;
+              flex-direction: column;
+            }
+          }
+        `}
+      </style>
     </>
   );
 }

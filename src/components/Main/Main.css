@@ -4,6 +4,7 @@
   height: 100%;
   display: flex;
   float: left;
+  overflow: hidden;
 }
 
 .fade-in {
@@ -19,7 +20,8 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  overflow-y: scroll;
+  overflow: auto;
   overflow-wrap: break-word;
   position: relative;
+  scrollbar-width: none;
 }
