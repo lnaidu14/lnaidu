@@ -1,5 +1,5 @@
 import "./Landing.css";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 export function Landing({ setDisplayPage }) {
   useEffect(() => {
     const visited = JSON.parse(localStorage.getItem("visited"));
