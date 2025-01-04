@@ -11,7 +11,7 @@ createRoot(document.getElementById("root")).render(
       {`
         @font-face {
           font-family: "VCR";
-          src: local("VC"), url("${pixelFont}") format("truetype");
+          src: local("VC"), url("${pixelFont}");
         }
 
         body {
