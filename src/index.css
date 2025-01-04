@@ -1,8 +1,3 @@
-@font-face {
-  font-family: "VCR";
-  src: local("VC"), url("VCR_OSD_MONO_1.001.ttf") format("truetype");
-}
-
 body {
   margin: 0;
   display: flex;
@@ -13,6 +8,6 @@ body {
   padding: 0;
   overflow: hidden;
   /* "Press Start 2P", sans-serif */
-  font-family: "VCR", sans-serif;
-  font-size: 1.5em;
+  /* font-family: "VCR", sans-serif; */
+  /* font-size: 1.5em; */
 }
