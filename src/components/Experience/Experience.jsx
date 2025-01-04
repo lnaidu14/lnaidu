@@ -11,11 +11,11 @@ export function Experience() {
         </span>
         <h5 className="company">Irdeto,Ottawa,Ontario,Canada</h5>
         <div className="lists">
-          <ul className="nes-list is-disc">
+          <ul>
             <li>
               Designed the Irdeto Reference Cloud Application (IRCA), a
               customizable company themed full stack application based on
-              Next.js and written in Typescript, to help teams jumpstart their
+              Next.js and written in Typescript, to help teams jump-start their
               projects.
             </li>
             <li>
@@ -84,7 +84,7 @@ export function Experience() {
           <h5 className="company">Mobiux Labs,Bengaluru,Karnataka,India</h5>
         </div>
         <div className="lists">
-          <ul className="nes-list is-disc">
+          <ul>
             <li>Developed an e-learning platform frontend using Next.js.</li>
             <li>
               Built backend API's, integrated databases, models and serializers
@@ -102,7 +102,7 @@ export function Experience() {
           <h5 className="company">Mobiux Labs,Bengaluru,Karnataka,India</h5>
         </div>
         <div className="lists">
-          <ul className="nes-list is-disc">
+          <ul>
             <li>
               Wrote automated unit, integration, and E2E test cases using Jest,
               raising coverage from 65% to 92% for an Express.js, event-driven

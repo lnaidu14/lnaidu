@@ -8,7 +8,7 @@ export function About() {
         <h1>LALIT NAIDU</h1>
         <h3>SOFTWARE DEVELOPER</h3>
         <div className="subheading">
-          {"Ottawa,Ontario,Canada ·"}
+          {"Ottawa,Ontario,Canada |"}
           <a href="mailto:lalit.pratap.naidu@gmail.com">
             lalit.pratap.naidu@gmail.com
           </a>

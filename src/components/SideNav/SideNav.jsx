@@ -40,15 +40,6 @@ export function SideNav({ setDisplayPage }) {
           <p
             className="nes-btn interaction"
             onClick={() => {
-              setDisplayPage("edu");
-              if (hamburgerOpen) setHamburgerOpen(false);
-            }}
-          >
-            Education
-          </p>
-          <p
-            className="nes-btn interaction"
-            onClick={() => {
               setDisplayPage("proj");
               if (hamburgerOpen) setHamburgerOpen(false);
             }}

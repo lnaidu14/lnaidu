@@ -1,4 +1,4 @@
-import { About, Experience, Projects, Education, Skills, SideNav } from "../";
+import { About, Experience, Projects, Skills, SideNav } from "../";
 import "./Main.css";
 import { useState, useEffect, useRef } from "react";
 
@@ -26,8 +26,6 @@ export function Main() {
         return <About />;
       case "exp":
         return <Experience />;
-      case "edu":
-        return <Education />;
       case "proj":
         return <Projects />;
       case "skills":
