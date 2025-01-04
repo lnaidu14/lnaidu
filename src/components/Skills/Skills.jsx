@@ -5,19 +5,25 @@ export function Skills() {
     <>
       <h2>SKILLS</h2>
       <div className="skills nes-container with-title is-centered">
-        <p className="title">Primary Programming Languages</p>
+        <p style={{ fontSize: "1em" }} className="title">
+          Primary Programming Languages
+        </p>
         <span className="skill">
           <div>JavaScript | TypeScript | SQL</div>
         </span>
       </div>
       <div className="skills nes-container with-title is-centered">
-        <p className="title">Secondary Programming Languages</p>
+        <p style={{ fontSize: "1em" }} className="title">
+          Secondary Programming Languages
+        </p>
         <span className="skill">
           <div>Python | Golang</div>
         </span>
       </div>
       <div className="skills nes-container with-title is-centered">
-        <p className="title">Cloud Providers and Services</p>
+        <p style={{ fontSize: "1em" }} className="title">
+          Cloud Providers and Services
+        </p>
         <span className="skill">
           <div>
             Amazon Web Services (Lambda,ECS,ECR,API
@@ -27,13 +33,17 @@ export function Skills() {
         </span>
       </div>
       <div className="skills nes-container with-title is-centered">
-        <p className="title">CICD</p>
+        <p style={{ fontSize: "1em" }} className="title">
+          CICD
+        </p>
         <span className="skill">
           <div>GitHub Actions | GitLab CICD | Terraform</div>
         </span>
       </div>
       <div className="skills nes-container with-title is-centered">
-        <p className="title">Frameworks and Libraries</p>
+        <p style={{ fontSize: "1em" }} className="title">
+          Frameworks and Libraries
+        </p>
         <span className="skill">
           <div>
             Node.js | Next.js | React.js | Fiber | Express.js | Jest | Prime
@@ -43,13 +53,17 @@ export function Skills() {
         </span>
       </div>
       <div className="skills nes-container with-title is-centered">
-        <p className="title">Databases</p>
+        <p style={{ fontSize: "1em" }} className="title">
+          Databases
+        </p>
         <span className="skill">
           <div>PostgreSQL | MongoDB | SQLite</div>
         </span>
       </div>
       <div className="skills nes-container with-title is-centered">
-        <p className="title">Tools</p>
+        <p style={{ fontSize: "1em" }} className="title">
+          Tools
+        </p>
         <span className="skill">
           <div>
             Docker | Git | Visual Studio Code | POSTMAN | Package Managers (npm,
@@ -58,7 +72,9 @@ export function Skills() {
         </span>
       </div>
       <div className="skills nes-container with-title is-centered">
-        <p className="title">Concepts</p>
+        <p style={{ fontSize: "1em" }} className="title">
+          Concepts
+        </p>
         <span className="skill">
           <div>
             RESTful APIs | Serverless | Infrastructure as Code (IaC) | Agile
@@ -67,7 +83,9 @@ export function Skills() {
         </span>
       </div>
       <div className="skills nes-container with-title is-centered">
-        <p className="title">Soft Skills</p>
+        <p style={{ fontSize: "1em" }} className="title">
+          Soft Skills
+        </p>
         <span className="skill">
           <div>
             Teamwork | Collaboration | Written and Verbal Communication |

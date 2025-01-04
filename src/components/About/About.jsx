@@ -14,7 +14,9 @@ export function About() {
           </a>
         </div>
         <div className="about-content nes-container with-title">
-          <p className="title">Greetings!</p>
+          <p style={{ fontSize: "1em" }} className="title">
+            Greetings!
+          </p>
           <p>
             I am an enthusiastic software developer with a passion for backend
             development, improving the developer and user experience and solving
