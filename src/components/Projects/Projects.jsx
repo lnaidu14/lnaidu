@@ -1,4 +1,5 @@
 import "./Projects.css";
+import externalLinkIcon from "../../assets/external-link-pixel.png";
 
 export function Projects() {
   return (
@@ -58,10 +59,7 @@ export function Projects() {
         </h5>
         <div className="link">
           <a href="https://technodevelop.com/" target="_blank">
-            <img
-              src="external-link-pixel.png"
-              alt="TechnoDevelope Corporation"
-            />
+            <img src={externalLinkIcon} alt="TechnoDevelop Corporation" />
           </a>
         </div>
         <div className="lists">

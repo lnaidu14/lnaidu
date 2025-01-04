@@ -1,4 +1,5 @@
 import "./About.css";
+import resumePdf from "../../assets/Lalit.pdf";
 
 export function About() {
   return (
@@ -33,7 +34,7 @@ export function About() {
               </a>
             </div>
           </div>
-          <a href="Lalit.pdf" target="_blank">
+          <a href={resumePdf} target="_blank">
             View Resume as PDF
           </a>
         </div>

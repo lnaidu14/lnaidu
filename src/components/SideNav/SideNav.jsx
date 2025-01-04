@@ -1,5 +1,7 @@
 import "./SideNav.css";
 import { useState } from "react";
+import hamburgerIcon from "../../assets/hamburger.png";
+import profilePic from "../../assets/profile-pic.jpeg";
 
 export function SideNav({ setDisplayPage }) {
   const [hamburgerOpen, setHamburgerOpen] = useState(false);
@@ -13,7 +15,7 @@ export function SideNav({ setDisplayPage }) {
         <img
           className="profile-picture"
           alt="Lalit Naidu Profile Picture"
-          src="profile-pic.jpeg"
+          src={profilePic}
         />
         {/* Interactions */}
         <div className="interactions">
@@ -82,7 +84,7 @@ export function SideNav({ setDisplayPage }) {
               left: 0;
               display: block;
               position: absolute;
-              background-image: url("hamburger.png");
+              background-image: url("${hamburgerIcon}");
               background-size: 100% 100%;
               background-position: center center;
               background-repeat: no-repeat;
