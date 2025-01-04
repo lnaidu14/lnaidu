@@ -106,7 +106,7 @@ Error generating stack: `+i.message+`
         `})]})}function qd(){const P=(te,D)=>{switch(te){case"main":return c.jsx(Yd,{});case"loading":return c.jsx(Gd,{setDisplayPage:D});case"landing":return c.jsx(Kd,{setDisplayPage:D})}},[T,m]=an.useState("landing");return c.jsx(c.Fragment,{children:c.jsx("div",{className:"app-container",children:P(T,m)})})}Dd.createRoot(document.getElementById("root")).render(c.jsxs(an.StrictMode,{children:[c.jsx(qd,{}),c.jsx("style",{jsx:!0,children:`
         @font-face {
           font-family: "VCR";
-          src: local("VC"), url("${Md}") format("truetype");
+          src: local("VC"), url("${Md}");
         }
 
         body {
