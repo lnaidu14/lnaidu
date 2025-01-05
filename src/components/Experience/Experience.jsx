@@ -87,7 +87,7 @@ export function Experience() {
           <ul>
             <li>Developed an e-learning platform frontend using Next.js.</li>
             <li>
-              Built backend API's, integrated databases, models and serializers
+              Built backend APIs, integrated databases, models and serializers
               using Django + REST.
             </li>
           </ul>
