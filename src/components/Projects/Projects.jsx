@@ -26,7 +26,7 @@ export function Projects() {
         </div>
       </div>
       <div className="project">
-        <h3 className="title">Quickpay</h3>
+        <h3 className="title">Quickpay (ongoing)</h3>
         <h5 className="app-type">Android Application</h5>
         <h5 className="skills-used">
           Skills used: Typescript | Golang | Fiber | React Native | REST |
