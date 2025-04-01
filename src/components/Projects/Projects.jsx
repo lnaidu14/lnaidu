@@ -71,6 +71,37 @@ export function Projects() {
           </ul>
         </div>
       </div>
+      <div className="project">
+        <h3 className="title">Infraez (ongoing)</h3>
+        <h5 className="app-type">Infrastructure tool</h5>
+        <h5 className="skills-used">
+          Skills used: Typescript | Golang | REST | GitHub Actions | Docker
+        </h5>
+        <div className="link">
+          <a href="https://github.com/lnaidu14/infraez" target="_blank">
+            <i className="nes-icon github is-large"></i>
+          </a>
+        </div>
+        <div className="lists">
+          <ul>
+            <li>
+              Developing a infrastructure tooling application to set a user up
+              with a customizable frontend, REST backend, database and
+              authentication/authorization. Inspired by Supabase.
+            </li>
+            <li>
+              Created a frontend built with Vite that is to be a distributed.
+            </li>
+            <li>
+              Set up an interactive CLI tool built using Bubble Tea which helps
+              with setup of the infrastrucutre needed.
+            </li>
+            <li>
+              Built a server using Express to distribute the infrastructure.
+            </li>
+          </ul>
+        </div>
+      </div>
     </>
   );
 }

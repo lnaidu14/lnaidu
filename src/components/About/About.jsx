@@ -18,9 +18,9 @@ export function About() {
             Greetings!
           </p>
           <p>
-            I am an enthusiastic software developer with a passion for backend
-            development, improving the developer and user experience and solving
-            problems.
+            I am an enthusiastic software developer with a passion for
+            development across the stack, improving the developer and user
+            experience and solving problems.
           </p>
 
           {/* Social Media Links */}
