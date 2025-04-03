@@ -6,26 +6,6 @@ export function Projects() {
     <>
       <h2>PROJECTS</h2>
       <div className="project">
-        <h3 className="title">TechnoDevelop Corporation</h3>
-        <h5 className="app-type">Web Application</h5>
-        <h5 className="skills-used">
-          Skills used: JavaScript | React | Prime React | GitHub Actions
-        </h5>
-        <div className="link">
-          <a href="https://technodevelop.com/" target="_blank">
-            <img src={externalLinkIcon} alt="TechnoDevelop Corporation" />
-          </a>
-        </div>
-        <div className="lists">
-          <ul>
-            <li>
-              Built a static frontend React application for a consultancy to
-              highlight their work and accomplishments.
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div className="project">
         <h3 className="title">Quickpay (ongoing)</h3>
         <h5 className="app-type">Android Application</h5>
         <h5 className="skills-used">

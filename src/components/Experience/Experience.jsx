@@ -5,11 +5,37 @@ export function Experience() {
     <>
       <h2>EXPERIENCE</h2>
       <div className="experience">
+        <div className="creds">
+          <span className="title-duration">
+            <h3 className="title">
+              Web Developer (TechnoDeveloper Corporation)
+            </h3>
+            <h5 className="duration">February 2025</h5>
+          </span>
+          <h5 className="company">Self Employed, Ottawa, Ontario, Canada</h5>
+          <h5 className="skills-used">
+            JavaScript | React | Prime React | GitHub Actions
+          </h5>
+        </div>
+        <div className="lists">
+          <ul>
+            <li>
+              Built a static frontend React application for a consultancy to
+              highlight their work, accomplishments and services provided.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className="experience">
         <span className="title-duration">
           <h3 className="title">Software Developer</h3>
           <h5 className="duration">January 2022 - March 2024</h5>
         </span>
         <h5 className="company">Irdeto,Ottawa,Ontario,Canada</h5>
+        <h5 className="skills-used">
+          TypeScript | React.js | Next.js | Prime React | PostgreSQL | Docker |
+          AWS | OIDC | Jest | Playwright
+        </h5>
         <div className="lists">
           <ul>
             <li>
@@ -82,6 +108,7 @@ export function Experience() {
             <h5 className="duration">April 2021 - November 2021</h5>
           </span>
           <h5 className="company">Mobiux Labs,Bengaluru,Karnataka,India</h5>
+          <h5 className="skills-used"> Python | Django | React.js | Next.js</h5>
         </div>
         <div className="lists">
           <ul>
@@ -100,6 +127,9 @@ export function Experience() {
             <h5 className="duration">February 2020 - November 2021</h5>
           </span>
           <h5 className="company">Mobiux Labs,Bengaluru,Karnataka,India</h5>
+          <h5 className="skills-used">
+            JavaScript | Jest | Automated API Testing | AWS
+          </h5>
         </div>
         <div className="lists">
           <ul>
