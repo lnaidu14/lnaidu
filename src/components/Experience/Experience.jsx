@@ -7,9 +7,7 @@ export function Experience() {
       <div className="experience">
         <div className="creds">
           <span className="title-duration">
-            <h3 className="title">
-              Web Developer (TechnoDeveloper Corporation)
-            </h3>
+            <h3 className="title">Web Developer (TechnoDevelop Corporation)</h3>
             <h5 className="duration">February 2025</h5>
           </span>
           <h5 className="company">Self Employed, Ottawa, Ontario, Canada</h5>
